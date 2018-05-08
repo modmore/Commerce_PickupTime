@@ -1,5 +1,5 @@
 .idea
 config.core.php
 .DS_store
-_packages/
+_packages/*/
 vendor/
