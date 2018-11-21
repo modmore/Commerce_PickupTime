@@ -43,6 +43,18 @@ class PickupTime extends BaseModule {
         $pickupTime = $event->getDataKey('pickuptime');
         if (!empty($pickupTime)) {
             $order = $event->getOrder();
+
+            if (class_exists('\modmore\Commerce\Order\Field\Text')) {
+                $order->setOrderField(
+                    new \modmore\Commerce\Order\Field\Text(
+                        $this->commerce,
+                        'pickuptime',
+                        $pickupTime
+                    )
+                );
+            }
+
+            // @deprecated Use the Order Field instead
             $order->setProperty('pickuptime', $pickupTime);
             $order->save();
 

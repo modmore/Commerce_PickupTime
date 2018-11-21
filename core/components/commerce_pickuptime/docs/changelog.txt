@@ -1,4 +1,10 @@
-++ PickupTime for Commerce 0.1.0-pl
-++ Released on
+++ PickupTime for Commerce 1.0.0-pl
+++ Released on 2018-11-22
 ++++++++++++++++++++++++++
-- First release
+- Now writes the pickup time to Order Fields in Commerce 0.12
+- The pickuptime order property is deprecated.
+
+++ PickupTime for Commerce 1.0.0-rc1
+++ Released on 2018-05-08
+++++++++++++++++++++++++++
+- First release, only available from GitHub
