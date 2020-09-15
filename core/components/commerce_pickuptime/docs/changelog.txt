@@ -1,10 +1,10 @@
-Packing Slip for Commerce 1.1.2-pl
+Pickup Time for Commerce 1.0.1-pl
 ----------------------------
 Released on 2020-09-15
 
 - Optimize autoloader to avoid class loading issue, require php 7.1
 
-Packing Slip for Commerce 1.0.0-pl
+Pickup Time for Commerce 1.0.0-pl
 ----------------------------
 Released on 2018-11-22
 
@@ -12,7 +12,7 @@ Released on 2018-11-22
 - The pickuptime order property is deprecated.
 
 
-Packing Slip for Commerce 1.0.0-pl
+Pickup Time for Commerce 1.0.0-pl
 ----------------------------
 Released on 2018-05-08
 
