@@ -3,7 +3,7 @@ namespace modmore\CommercePickupTime\Modules;
 use modmore\Commerce\Events\Checkout;
 use modmore\Commerce\Frontend\Steps\Shipping;
 use modmore\Commerce\Modules\BaseModule;
-use Symfony\Component\EventDispatcher\EventDispatcher;
+use modmore\Commerce\Dispatcher\EventDispatcher;
 
 require_once dirname(dirname(__DIR__)) . '/vendor/autoload.php';
 
